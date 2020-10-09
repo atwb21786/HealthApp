@@ -1,3 +1,40 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+    margin: 0;
+}
+
+header {
+    text-align: center;
+}
+
+.App-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.App-about {
+    display: block;
+    height: 25%;
+    margin: 5px;
+    padding: 5px;
+    width: 50%;
+    border: 2px solid black;
+}
+
+.App-resources{
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    width: 40%;
+    border: 2px solid black;
+}
+
+.App-articles, .App-podcasts {
+    margin: 25px;
+    padding: 10px;
+    height: 200px;
+    border: 2px solid black; 
+}
