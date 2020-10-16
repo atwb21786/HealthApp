@@ -7,7 +7,16 @@ body {
 }
 
 header {
+    display: flex;
+    width: 90%;
+    height: 20vh;
+    margin: auto;
+    align-items: center;
+}
+
+.App-title {
     text-align: center;
+    flex: 1;
 }
 
 .App-content {
@@ -16,25 +25,40 @@ header {
 }
 
 .App-about {
-    display: block;
-    height: 25%;
-    margin: 5px;
-    padding: 5px;
-    width: 50%;
-    border: 2px solid black;
+    display: flex;
+    margin: auto;
+    align-items: stretch;
+    width: 90%;
+    padding: 25px;
 }
 
+.App-about h3 {
+    font-size: 40px;
+}
+
+.App-intro, .App-image {
+    flex: 1
+}
+
+.App-image img {
+    width: 100%;
+}
+
+
+/* 
 .App-resources{
     display: block;
     margin: 5px;
     padding: 5px;
     width: 40%;
     border: 2px solid black;
-}
+} */
 
-.App-articles, .App-podcasts {
-    margin: 25px;
-    padding: 10px;
-    height: 200px;
-    border: 2px solid black; 
+.App-articles, .App-podcasts, .App-websites, .App-fitness {
+    display: block;
+    height: 25%;
+    margin: auto;
+    padding: 25px;
+    width: 50%;
+    border: 2px solid black;
 }
