@@ -19,6 +19,11 @@ header {
     flex: 1;
 }
 
+.App-menu {
+    text-align: center;
+    list-style-type: none;
+}
+
 .App-content {
     display: flex;
     flex-direction: column;

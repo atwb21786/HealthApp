@@ -9,6 +9,7 @@ import FoundMyFitness from './images/FoundMyFitness.webp';
 import FastingClock from './images/eatfastclock.png';
 import KetoDiet from './images/KetoDiet.png';
 import RunningPic from './images/running.jpg';
+import { Link } from 'react-router-dom'
 import './LandingPage.css';
 
 
@@ -23,7 +24,12 @@ class LandingPage extends React.Component {
             <h1>Health and Wellness</h1>
           </div>
           <nav className="App-links">
-            <h4>Links</h4>
+            <ul className="App-menu">
+              <li><Link to='/articles' className='links'>Articles</Link></li>
+              <li><Link to='/websites' className='links'>Websites</Link></li>
+              <li><Link to='/podcasts' className='links'>Podcasts</Link></li>
+              <li><Link to='/fitness' className='links'>Fitness</Link></li>
+            </ul>
           </nav>
         </header>
         <main className="App-content">
