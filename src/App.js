@@ -5,6 +5,7 @@ import LandingPage from './LandingPage';
 import Articles from './Articles'
 import Websites from './Websites';
 import Podcasts from './Podcasts';
+import NavMenu from './NavMenu';
 
 
 class App extends React.Component {
@@ -12,6 +13,9 @@ class App extends React.Component {
   render() {
     return (
       <div>
+        <header>
+          <Route path={['/', '/articles', '/websites', '/podcasts', '/fitness']} component={NavMenu}/>
+        </header>
         <main>
           <Route exact path={'/'} component={LandingPage} />
           <Route path={'/articles'} component={Articles} />
