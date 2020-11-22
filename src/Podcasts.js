@@ -10,8 +10,12 @@ class Podcasts extends React.Component {
     render() {
         return(
             <div className="App-podcasts">
+                <header className="App-header">
+                    <div className="App-title">
+                        <h1>Podcasts</h1>
+                    </div>
+                </header>
             <section >
-              <h3>Podcasts</h3>
               <section className="App-podcast-items">
                 <div className="App-podcast-1">
                   <img src={PeterAttiaPodcast} alt="Peter_Attia_Podcast"></img>

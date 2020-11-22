@@ -11,8 +11,12 @@ class Articles extends React.Component {
     render() {
         return(
             <div className="App-articles">
+                <header className="App-header">
+                    <div className="App-title">
+                        <h1>Articles</h1>
+                    </div>
+                </header>
                 <section>
-                    <h3>Articles</h3>
                         <section className="App-article-items">
                         
                             <div className="App-article-1" >

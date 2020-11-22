@@ -10,8 +10,12 @@ class Websites extends React.Component {
     render() {
         return(
             <div className="App-websites">
+              <header className="App-header">
+                    <div className="App-title">
+                        <h1>Websites</h1>
+                    </div>
+                </header>
             <section>
-              <h3>Websites</h3>
                 <section className="App-website-items">
                   <div className="App-website-1">
                     <img src={PeterAttia} alt="Peter_Attia_Hero"></img>
