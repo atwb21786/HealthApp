@@ -28,8 +28,8 @@ class LandingPage extends React.Component {
             <div className="App-intro">
               <h3>Fitness for the body and mind</h3>
               <p>Staying healthy is hard. Staying healthy in 2020 during a global pandemic? Really hard.<br/>
-              The first step in getting healthy is knowing what that means. In times where misinformation is rife<br/>
-              it would be great to have a single place to find reliable health information, a place<br/>
+              The first step in getting healthy is knowing what that means. In times where misinformation is rife
+              it would be great to have a single place to find reliable health information, a place
               that has great articles to read and podcasts that provided the best scientific information out there.<br/>
               </p>
             </div>
