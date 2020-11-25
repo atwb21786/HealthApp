@@ -6,6 +6,7 @@ import Articles from './Articles'
 import Websites from './Websites';
 import Podcasts from './Podcasts';
 import NavMenu from './NavMenu';
+import Fitness from './Fitness';
 
 
 class App extends React.Component {
@@ -20,7 +21,8 @@ class App extends React.Component {
           <Route exact path={'/'} component={LandingPage} />
           <Route path={'/articles'} component={Articles} />
           <Route path={'/websites'} component={Websites} />
-          <Route path={'/podcasts'} component={Podcasts} />          
+          <Route path={'/podcasts'} component={Podcasts} /> 
+          <Route path={'/fitness'} component={Fitness} />         
         </main>
       </div>
     );
