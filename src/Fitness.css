@@ -1,0 +1,12 @@
+.Fitness-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.Fitness-about {
+    display: flex;
+    margin: auto;
+    align-items: stretch;
+    width: 90%;
+    padding: 25px;
+}
